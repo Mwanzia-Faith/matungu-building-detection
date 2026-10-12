@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Large data files
+data/raw/*
+data/labels/*
+models/*
+*.tif
+*.tiff
+*.zip
+*.pth
+*.pt
+
+# Keep folder placeholders
+!data/raw/.gitkeep
+!data/labels/.gitkeep
+!models/.gitkeep
